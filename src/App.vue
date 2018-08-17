@@ -18,10 +18,9 @@ export default {
     margin: 0;
   }
   .full-screen{
-    width: 100%;
+    width:100%;
     height: 100%;
     padding: 0;
-    margin: 0;
-    background: #8cc5ff;
+    /*background:rgba(0,0,0,.1)*/
   }
 </style>
