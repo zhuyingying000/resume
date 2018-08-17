@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div >
     <p class="align">隐私设置<a href="" class="zero">设置</a></p>
 
     <p class="setting-item  align">
@@ -20,10 +20,7 @@ export default {
 
 <style scoped>
   div {
-    width: 210px;
-    height: 150px;
-    padding: 10px;
-    background: beige;
+    background: #fff;
   }
   .align{
     display: flex;

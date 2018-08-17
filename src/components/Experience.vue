@@ -1,13 +1,13 @@
 <template>
   <div class="container">
     <BlockTitle title="工作经历"></BlockTitle>
-    <div class="blue">
+    <div class="blue" v-for="item in exp">
       <p>
-        <span>无</span>
+        <span>{{item.companyName}}</span>
         <span class="time"> 2018.04-至今</span>
       </p>
-      <p class="web"> web前端</p>
-      <p class="study">离职到目前为止，自学软件技术</p>
+      <p class="web">{{item.position}}</p>
+      <p class="study" v-html="item.positionDetail"></p>
       <div class="radius">
         <span>Javascript</span>
         <span>Vue.js</span>
@@ -18,23 +18,25 @@
 </template>
 
 <script>
+
 import BlockTitle from './BlockTitle'
 
 export default {
   name: "Experience",
   components: {
     BlockTitle
+  },
+  props: {
+    exp: {
+      type: Array
+    }
   }
 }
 </script>
 
 <style scoped>
   .container {
-    max-width: 770px;
-    height: 160px;
-    padding: 20px 30px;
-    background: rgba(0, 0, 0, .1);
-    border-top: 1px solid #999;
+    padding: 10px 40px;
   }
 
   .time {
@@ -61,9 +63,6 @@ export default {
     border-radius: 25px;
   }
 
-  .blue{
-    height:140px;
-  }
   .blue:hover {
     background: rgba(0, 0, 0, .2);
   }

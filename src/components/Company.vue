@@ -34,9 +34,9 @@ export default {
 <style scoped>
   .container {
     max-width: 770px;
+    margin-left:130px;
     height: 320px;
     padding: 20px 30px;
-    background: rgba(0, 0, 0, .1);
     border-top: 1px solid #999;
   }
   .text p{

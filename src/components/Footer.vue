@@ -60,7 +60,7 @@ export default {
   .width {
     height: 203px;
     max-width: 1000px;
-    margin: 0 auto;
+    margin-left:130px;
     padding:10px 0;
   }
 

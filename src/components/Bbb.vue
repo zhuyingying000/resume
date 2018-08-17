@@ -28,12 +28,7 @@ export default {
 
 <style scoped>
   .container{
-    max-width: 770px;
-    height: 135px;
-    padding: 20px 30px;
-    background: rgba(0, 0, 0, .1);
-    border-top: 1px solid #999;
-    /*border-bottom: 1px solid #999;*/
+    padding: 10px 40px;
   }
   .center{
     text-align: center;

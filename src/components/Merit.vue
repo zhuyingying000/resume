@@ -28,10 +28,7 @@ export default {
 
 <style scoped>
   .container {
-    max-width: 770px;
-    height: 300px;
-    padding: 20px 30px;
-    background: aliceblue;
+    padding: 10px 40px;
   }
   .text{
     font-size: 14px;

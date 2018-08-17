@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <BlockTitle title="社交主页"></BlockTitle>
-    <div>
+    <div class="link">
       <a href="https://github.com/zhuyingying000">https://github.com/zhuyingying000</a>
     </div>
     <p class="center">+添加项目内容</p>
@@ -22,12 +22,7 @@ export default {
 
 <style scoped>
   .container {
-    max-width: 770px;
-    height: 135px;
-    padding: 20px 30px;
-    background: rgba(0, 0, 0, .1);
-    border-top: 1px solid #999;
-    /*border-bottom: 1px solid #999;*/
+    padding: 10px 40px;
   }
 
   .center {
@@ -43,6 +38,19 @@ export default {
     background: rgba(0, 0, 0, .1);
   }
 
+  .link {
+    margin: 20px 20px 0 70px;
+  }
+
+  .link:hover {
+    background: rgba(0, 0, 0, .1);
+  }
+
+  a {
+    text-decoration: none;
+    color: #999;
+    font-size: 14px;
+  }
 
 </style>
 

@@ -30,10 +30,7 @@ export default {
 
 <style scoped>
   .container {
-    max-width: 770px;
-    height: 150px;
-    padding: 20px 30px;
-    background: rgba(0,0,0,.1);
+    padding: 10px 40px;
   }
   .container span{
   margin-right:50px;

@@ -34,7 +34,7 @@ export default {
 <style scoped>
   .container {
     height: 50px;
-    background: black;
+    background: #202329;
   }
 
   .navigation {
@@ -50,28 +50,23 @@ export default {
     text-decoration: none;
     font-size: 14px;
   }
-
   .navigation a:hover {
     color: deepskyblue;
     transition: 1s;
     /*transition-duration: 1s;*/
   }
-
   .left a {
     margin-right: 30px;
   }
-
   .logo {
-    color: aqua !important;
+    color:#15cbc6!important;
     font-size: 30px;
   }
 
   .right a {
     margin-left: 30px;
   }
-
   .blue {
-    color: aqua !important;;
+    color: #15cbc6!important;;
   }
-
 </style>
