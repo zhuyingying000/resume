@@ -28,22 +28,23 @@ export default {
   .center {
     text-align: center;
     color: #555;
-    padding: 15px 0;
-    height: 10px;
-    line-height: 10px;
+    height: 40px;
+    line-height: 40px;
     font-size: 14px;
   }
 
   .center:hover {
-    background: rgba(0, 0, 0, .1);
+    background: #f2f5f9;
   }
 
   .link {
     margin: 20px 20px 0 70px;
+    height: 40px;
+    line-height: 40px;
   }
 
   .link:hover {
-    background: rgba(0, 0, 0, .1);
+    background: #f2f5f9;
   }
 
   a {

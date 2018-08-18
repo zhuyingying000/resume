@@ -29,6 +29,6 @@ export default {
     font-size: 14px;
   }
   .center:hover{
-    background: rgba(0,0,0,.1);
+    background: #f2f5f9;
   }
 </style>

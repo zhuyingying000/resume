@@ -39,7 +39,7 @@ export default {
 
   }
 .hover:hover{
-  background:#CCFFFF;
+  background:#F2F5F9;
   transition:2s;
 }
 </style>

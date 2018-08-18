@@ -1,9 +1,12 @@
 <template>
   <div class="content1">
-    <div class="title">简历附件</div>
+    <h3 class="title">简历附件</h3>
     <div class="size "><i class="el-icon-document">朱莹莹简历.doc</i></div>
-    <el-button type="primary">新增简历附件</el-button>
-    <div class="gray">支持 DOC、DOCX、PDF、JPG、PNG格式附件，文件大小不超过10M</div>
+    <div style="text-align: center;">
+
+    <button class="primary">新增简历附件</button>
+    </div>
+    <p class="gray">支持 DOC、DOCX、PDF、JPG、PNG格式附件，文件大小不超过10M</p>
 
   </div>
 </template>
@@ -17,6 +20,13 @@ export default {
 <style scoped>
   .content1 {
     background: #fff;
+    padding: 20px;
+  }
+
+  .size {
+    font-size: 14px;
+    color: #555;
+    padding: 10px 0;
   }
 
   .title {
@@ -30,9 +40,16 @@ export default {
     color: #999;
   }
 
-  .el-button {
-    width: 152px;
-    height: 42px;
-    background: deepskyblue;
+  .primary{
+   border:none;
+    font-size: 14px;
+    padding:8px 30px;
+    background: #53cac3;
+    color: #fff;
+   margin:10px;
+
+
+
+
   }
 </style>

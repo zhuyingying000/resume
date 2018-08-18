@@ -13,7 +13,7 @@
 
     <el-row class="detail">
       <el-col :span="18">
-        <p class="name"> 朱莹莹</p>
+        <div class="name"> 朱莹莹</div>
         <div class="labels">
           <p><span> 6年经验</span>
             <span>本科学历</span>
@@ -55,5 +55,19 @@ export default {
 
   .detail {
     margin: 20px 40px 0;
+  }
+  .time{
+    font-size: 12px;
+    color: #b7b7c1;
+
+  }
+  .name{
+    font-size:22px;
+    /*font-weight: 200;*/
+  }
+  .labels span{
+    font-size: 13px;
+    color: #555;
+    padding:0 30px;
   }
 </style>

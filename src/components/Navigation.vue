@@ -51,7 +51,7 @@ export default {
     font-size: 14px;
   }
   .navigation a:hover {
-    color: deepskyblue;
+    color:#F2F5F9;
     transition: 1s;
     /*transition-duration: 1s;*/
   }

@@ -12,7 +12,7 @@
             <Divider></Divider>
             <Job></Job>
             <Divider></Divider>
-            <Experience :exp="exp"></Experience>
+            <Experience :exp="opopop"></Experience>
             <Divider></Divider>
             <Aaa></Aaa>
             <Divider></Divider>
@@ -43,7 +43,6 @@ import Advantage from './Advantage' //引用Advantage 组件。
 import Merit from './Merit' //引用Merit 组件。
 import Job from './Job' //引用Job 组件。
 import Experience from './Experience' //引用Experience 组件。
-import Company from './Company' //引用 Company 组件。
 import Aaa from './Aaa' //引用 Aaa 组件。
 import Bbb from './Bbb' //引用 Bbb 组件。
 import Ccc from './Ccc' //引用 Ccc 组件。
@@ -63,7 +62,6 @@ export default {
     Merit,
     Job,
     Experience,
-    Company,
     Aaa,
     Bbb,
     Ccc,
@@ -76,10 +74,15 @@ export default {
 
   data() {
     return {
-      exp: [{
+      opopop: [{
         companyName: '无',
         position: 'web前端',
         positionDetail: '离职到目前为止，自学软件技术。',
+        tag: [
+          'javascript',
+          'css3',
+          'vue.js',
+        ]
       }, {
         companyName: '大连摩尔登科技股份有限公司',
         position: '人力资源专员/助理',
@@ -92,7 +95,13 @@ export default {
 7、员工沟通关怀、疏导；<br>
 8、每月工资报表制作，公司员工档案管理，合理有效控制人力资源成本<br>
 9、建立并完善人力资源管理体系，制定并完善各项人力资源管理制度<br>`,
-      },],
+
+     tag:[
+     '人事',
+
+     ]
+
+      }],
     }
   }
 }

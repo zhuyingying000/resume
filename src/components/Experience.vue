@@ -9,9 +9,7 @@
       <p class="web">{{item.position}}</p>
       <p class="study" v-html="item.positionDetail"></p>
       <div class="radius">
-        <span>Javascript</span>
-        <span>Vue.js</span>
-        <span> css3</span>
+        <span v-for="tag in item.tag" class="tag">{{tag}}</span>
       </div>
     </div>
   </div>
@@ -26,8 +24,8 @@ export default {
   components: {
     BlockTitle
   },
-  props: {
-    exp: {
+  props: {  // props声明传入的属性，不声明就接受不到。
+    exp: {   //自定义的属性。
       type: Array
     }
   }
@@ -38,7 +36,6 @@ export default {
   .container {
     padding: 10px 40px;
   }
-
   .time {
     font-size: 10px;
     color: #999;
@@ -57,13 +54,16 @@ export default {
 
   .radius span {
     font-size: 10px;
-    color: #555;
-    padding: 5px 10px;
-    border: 1px solid #555;
-    border-radius: 25px;
+    color: #666;
+    padding: 1px 8px;
+    border: 1px solid #999;
+    border-radius:25px;
   }
 
   .blue:hover {
-    background: rgba(0, 0, 0, .2);
+    background: #f2f5f9;
+  }
+   .tag{
+    margin-right:10px;
   }
 </style>

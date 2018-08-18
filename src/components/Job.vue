@@ -48,6 +48,6 @@ export default {
     line-height: 30px;
   }
   .p1:hover{
-    background:rgba(0,0,0,.2);
+   background: #F2F5F9;
   }
 </style>
