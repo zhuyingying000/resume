@@ -15,11 +15,12 @@
       <el-col :span="18">
         <div class="name"> 朱莹莹</div>
         <div class="labels">
-          <p><span> 6年经验</span>
-            <span>本科学历</span>
-            <span>离职-随时到岗</span></p>
-          <span class="test"><i class="iconfont icon-weibiaoti-"></i> 13190130610</span>
-          <span>z1798363558</span>
+          <p>
+            <span><i class="iconfont icon-gongzuojingyan"></i> 6年经验</span>
+            <span><i class="iconfont icon-xueli"></i> 本科学历</span>
+            <span><i class="iconfont icon-ren2"></i> 离职-随时到岗</span></p>
+          <span class="test"><i class="iconfont icon-weibiaoti-" ></i> 13190130610</span>
+          <span><i class="iconfont icon-weixin"></i> z1798363558</span>
         </div>
       </el-col>
       <el-col :span="6" class="pre">

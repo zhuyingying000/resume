@@ -2,18 +2,18 @@
   <div class="container">
     <BlockTitle title="职位期望"></BlockTitle>
     <p class="p1">
-      <span>web前端</span>
-      <span>4-5千</span>
-      <span>移动互联网</span>
-      <span>大连</span>
+      <span><i class="iconfont icon-qian1 "></i>web前端</span>
+      <span> <i class="iconfont icon-qian"> </i>4-5千</span>
+      <span> <i class="iconfont icon-image"></i>移动互联网</span>
+      <span><i class="iconfont icon-icon-"></i>大连</span>
     </p>
     <p class="p1">
-      <span>TTML5</span>
-      <span>4-6k</span>
-      <span>不限</span>
-      <span>大连</span>
+      <span> <i class="iconfont icon-qian1"></i>TTML5</span>
+      <span> <i class="iconfont icon-qian"></i>4-6k</span>
+      <span> <i CLASS="iconfont icon-image"></i>不限</span>
+      <span> <i class="iconfont icon-icon-"></i>大连</span>
     </p>
-    <p class="push p1" >+添加期望职位</p>
+    <p class="push p1" > <i class="icongont icon-icon-"></i>+添加期望职位</p>
 
   </div>
 </template>

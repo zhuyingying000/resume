@@ -46,7 +46,17 @@
             <p>企业服务热线 400 065 5799</p>
             <p>工作日 9:30 - 18:30</p>
           </div>
-
+          <div class="">
+            <div class="icon-border">
+              <i class="iconfont icon-xinlang icon"></i>
+            </div>
+            <div class="icon-border">
+              <i class="iconfont icon-weixin1 icon"></i>
+            </div>
+            <div class="icon-border">
+              <i class="iconfont icon-app-store icon"></i>
+            </div>
+          </div>
         </el-col>
       </el-row>
 
@@ -64,13 +74,15 @@ export default {
 <style scoped>
   .line {
     background: #fff;
-    padding-top:10px;
+    padding-top: 10px;
   }
+
   .left {
     max-width: 1000px;
     margin: 0 auto;
 
   }
+
   .link a {
     text-decoration: none;
     color: #999;
@@ -78,19 +90,44 @@ export default {
     display: block;
     padding: 5px 0;
   }
-.link a:hover{
-  color:#00d7c6;
-}
+
+  .link a:hover {
+    color: #00d7c6;
+  }
+
   p {
     font-size: 10px;
-    color:#555;
+    color: #555;
   }
-  .right{
+
+  .right {
     text-align: right;
   }
-  .right img{
-    width:88px;
-    height:16px;
-    padding-top:10px;
+
+  .right img {
+    width: 88px;
+    height: 16px;
+    padding-top: 10px;
+  }
+
+  .icon-border {
+    border: 1px solid #f0000000;
+    border-radius: 50%;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 8px;
+    box-sizing: border-box;
+  }
+
+  .icon {
+    font-size: 20px;
+    color: #899;
+  }
+
+  .icon-border:hover {
+    border: 1px solid gray;
+   transition: 2s;
   }
 </style>

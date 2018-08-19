@@ -27,11 +27,8 @@
         </el-col>
       </el-row>
     </div>
-
-
     <Footer></Footer>
-
-
+    <Police></Police>
   </div>
 </template>
 
@@ -50,6 +47,7 @@ import Footer from './Footer' //引用 Footer组件。
 import AnnexResume from './AnnexResume' //引用Navigation组件。
 import PrivacySetting from './PrivacySetting' //引用 PrivacySetting组件。
 import Divider from './Divider'
+import  Police from './Police'
 
 
 export default {
@@ -69,6 +67,7 @@ export default {
     AnnexResume,
     PrivacySetting,
     Divider,
+    Police,
 
   },//局部注册
 

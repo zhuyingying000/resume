@@ -2,7 +2,7 @@
   <div class="container">
     <BlockTitle title="社交主页"></BlockTitle>
     <div class="link">
-      <a href="https://github.com/zhuyingying000">https://github.com/zhuyingying000</a>
+      <a href="https://github.com/zhuyingying000"><i class="iconfont icon-githubsquare cat"></i>https://github.com/zhuyingying000</a>
     </div>
     <p class="center">+添加项目内容</p>
   </div>
@@ -38,7 +38,7 @@ export default {
   }
 
   .link {
-    margin: 20px 20px 0 70px;
+    padding-top: 20px;
     height: 40px;
     line-height: 40px;
   }
@@ -53,6 +53,11 @@ export default {
     font-size: 14px;
   }
 
+  .cat {
+    font-size: 30px;
+    padding: 0 20px;
+
+  }
 </style>
 
 
